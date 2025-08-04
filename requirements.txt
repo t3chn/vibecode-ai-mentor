@@ -1,0 +1,5 @@
+openai>=0.27.0
+langchain>=0.0.300
+tidbcloud>=0.1.0
+faiss-cpu>=1.7.4
+python-dotenv>=1.0.0
