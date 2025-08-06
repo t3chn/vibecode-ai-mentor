@@ -1,0 +1,44 @@
+# VibeCode AI Mentor Configuration Example
+# Copy this file to ~/.vibecode/config.yaml or .vibecode.yaml and modify as needed
+
+# TiDB Database Configuration
+tidb_host: "gateway01.us-west-2.prod.aws.tidbcloud.com"
+tidb_port: 4000
+tidb_user: "your_username"
+tidb_password: "your_password"
+tidb_database: "vibecode"
+
+# API Configuration
+api_host: "localhost"
+api_port: 8000
+
+# API Keys for Embedding Generation
+gemini_api_key: "your_gemini_api_key"
+openai_api_key: "your_openai_api_key"  # Optional fallback
+
+# CLI Preferences
+default_language: "python"
+output_format: "table"  # table, json, yaml
+batch_size: 100
+max_workers: 4
+
+# Analysis Settings
+min_lines_for_analysis: 5
+complexity_threshold: 10
+similarity_threshold: 0.8
+
+# File Patterns
+include_patterns:
+  - "**/*.py"
+  - "**/*.js"
+  - "**/*.ts"
+
+exclude_patterns:
+  - "**/__pycache__/**"
+  - "**/.*"
+  - "**/node_modules/**"
+  - "**/venv/**"
+  - "**/env/**"
+  - "**/.git/**"
+  - "**/test/**"
+  - "**/*test*"

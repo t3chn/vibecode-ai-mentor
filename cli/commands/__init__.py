@@ -1,0 +1,1 @@
+"""CLI commands for VibeCode AI Mentor."""

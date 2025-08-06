@@ -1,0 +1,18 @@
+# UV configuration for VibeCode AI Mentor
+
+# Python version management
+python-preference = "managed"
+python-downloads = "automatic"
+
+# Cache settings
+compile-bytecode = true
+
+# Resolution settings
+resolution = "highest"
+prerelease = "disallow"
+
+# Index settings
+index-url = "https://pypi.org/simple/"
+
+# Build settings
+no-build-isolation = false
